@@ -14,7 +14,12 @@ function toColumn(col, index) {
         <div class="column" data-type="resizable" data-col="${index}">
             ${col}
             <div class="col-resize" data-resize="col"></div>
-        </div>
+    `
+}
+
+function toCell() {
+  return `
+        <div class="cell" contenteditable></div>
     `
 }
 

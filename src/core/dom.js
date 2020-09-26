@@ -60,6 +60,7 @@ class Dom {
       this.$el.style[key]=styles[key]
     })
   }
+  
 }
 
 export function $(selector) {
