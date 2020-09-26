@@ -17,12 +17,6 @@ function toColumn(col, index) {
     `
 }
 
-function toCell() {
-  return `
-        <div class="cell" contenteditable></div>
-    `
-}
-
 function createRow(content, index) {
   const resize= index ? '<div class="row-resize" data-resize="row"></div>' : ''
   return `
